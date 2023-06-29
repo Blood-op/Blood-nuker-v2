@@ -556,4 +556,4 @@ async def editServerIcon(ctx):
         await ctx.guild.edit(icon=icon)
         print(f"{msgs['+']} Changed server icon")
     except:
-        print(f"{msgs['error']} Can't change server icon
+        print(f"{msgs['error']} Can't change server icon")
