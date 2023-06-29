@@ -118,7 +118,7 @@ except FileNotFoundError:
     else:
         owners = [int(owners)]
     activity = {"type": "playing",
-                "text": f"Untitled Nuker v{version}",
+                "text": f"Blood Nuker v2{version}",
                 "isenabled": True}
     enablelogging = False
     config = {
@@ -235,8 +235,8 @@ async def settings(ctx):
     p = bot.command_prefix
     embed = discord.Embed(
         title="Settings", description="Available settings\n`Only for owners`", color=embedColor)
-    embed.set_author(name="Untitled Nuker",
-                     url="https://github.com/ICEGXG/UntitledNuker")
+    embed.set_author(name="Blood Nuker",
+                     url="https://discord.gg/s7fATdey")
     embed.add_field(
         name="Prefix", value=f">>> Change prefix\n`{p}settings prefix <prefix>`", inline=False)
     embed.add_field(
