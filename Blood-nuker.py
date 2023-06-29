@@ -71,18 +71,19 @@ def checkActivity(type, text):
         return None
 
 
-print(f'{colors["main"]}\n\n                  __  __  __   __  ______ __  ______ __      ______  _____     ' + "\n"
-      r'                                       BLOOD NUKER V2 FUCK THE DC             ' + "\n"
-      r'                                       __  __  __   __  ______ __  ______ __  ' + "\n"
-      r'                                        https://discord.gg/7jpSw884eV         ' + "\n"                
-      r'                                       __  __  __  __  ______ __  ______ __   ' + "\n"
+print(f'{colors["main"]}\n\n                 | __  __  __   __  ______ __  ______ __ |    ______  _____     ' + "\n"
+      r'                                     | BLOOD NUKER V2 FUCK THE DC            |  ' + "\n"
+      r'                                     |  __  __  __   __  ______ __  ______ __| ' + "\n"
+      r'                                     |  https://discord.gg/7jpSw884eV        |   ' + "\n"                
+      r'                                     | __  __  __  __  ______ __  ______ __  | ' + "\n"
       '\n'
-      r'                            __   __  __  __  __  __  ______  ______    ' + "\n"
-      r'                           /\ "-.\ \/\ \/\ \/\ \/ / /\  ___\/\  == \   ' + "\n"
-      r'                           \ \ \-.  \ \ \_\ \ \  _"-\ \  __\\ \  __<   ' + "\n"
-      r'                            \ \_\\"\_\ \_____\ \_\ \_\ \_____\ \_\ \_\ ' + "\n"
-      r'                             \/_/ \/_/\/_____/\/_/\/_/\/_____/\/_/ /_/ '
-      "\n"
+      r'                                            ╚╦╗                                                             ╔╦╝
+      r'                                                 =======================================    ' + "\n"
+      r'                                                                Features     ' + "\n"
+      r'                                                          =====================   ' + "\n"
+      r'                                                [spam with channels, spam roles, spam msgs]' + "\n"
+      r'                                                   [adminall, massban, rename everyone ] ' + "\n"
+      "\n
       "\n"
       "\n"
       f"{colors['white']}                           Author: {colors['main']}ICE#4449\n"
