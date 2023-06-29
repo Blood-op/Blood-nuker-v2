@@ -79,16 +79,16 @@ print(f'{colors["main"]}\n\n                 | __  __  __   __  ______ __  _____
       '\n'
       r'                                            ╚╦╗                                                             ╔╦╝
       r'                                                 =======================================    ' + "\n"
-      r'                                                                Features     ' + "\n"
-      r'                                                          =====================   ' + "\n"
-      r'                                                [spam with channels, spam roles, spam msgs]' + "\n"
-      r'                                                   [adminall, massban, rename everyone ] ' + "\n"
+      r'                                                                Features                    ' + "\n"
+      r'                                                          =====================             ' + "\n"
+      r'                                                [spam with channels, spam roles, spam msgs] ' + "\n"
+      r'                                                   [adminall, massban, rename everyone ]    ' + "\n"
       "\n
       "\n"
       "\n"
-      f"{colors['white']}                           Author: {colors['main']}ICE#4449\n"
+      f"{colors['white']}                           Author: {colors['main']}ζ͜͡𝑲𝒏𝒐𝒘𝒏𝑨𝒔ζ͜͡ℬłøøđ 🥀 <$#0121\n"
       f"{colors['white']}                           Version: {colors['main']}{version} {checkVersion()}\n"
-      f"{colors['white']}                           GitHub: {colors['main']}https://github.com/ICEGXG/UntitledNuker\n\n{colors['white']}")
+      f"{colors['white']}                           GitHub: {colors['main']}https://github.com/Blood-op/Blood-nuker-v2\n\n{colors['white']}")
 
 """
 Fetching prefix, token and owner ID's from config
@@ -192,8 +192,8 @@ async def help(ctx):
     await msg_delete(ctx)
     p = bot.command_prefix
     embed = discord.Embed(title="Help", color=embedColor)
-    embed.set_author(name="Untitled Nuker",
-                     url="https://github.com/ICEGXG/UntitledNuker")
+    embed.set_author(name="Blood Nuker",
+                     url="https://github.com/Blood-op/Blood-nuker-v2")
     embed.add_field(
         name="Nuke", value=f">>> `{p}1 <ban 1/0> <your text>`", inline=False)
     embed.add_field(name="Ban everyone", value=f">>> `{p}2`", inline=False)
@@ -226,7 +226,7 @@ async def help(ctx):
         name="Revive (DM Only)", value=f">>> Creating 1 text channel on server if you deleted all\n`{p}15 <guild id>`", inline=False)
     embed.add_field(name="Settings", value=f">>> `{p}settings`")
     embed.add_field(name="\u200b\nInfo",
-                    value=f">>> **Untitled Nuker**\nMade by <@404323086561837066>\nVersion: {version} {checkVersion()}\nGitHub: https://github.com/ICEGXG/UntitledNuker\n", inline=False)
+                    value=f">>> **Blood Nuker**\nMade by <@404323086561837066>\nVersion: {version} {checkVersion()}\nGitHub: https://github.com/Blood-op/Blood-nuker-v2\n", inline==False)
     await ctx.message.author.send(embed=embed)
 
 
