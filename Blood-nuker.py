@@ -226,7 +226,7 @@ async def help(ctx):
         name="Revive (DM Only)", value=f">>> Creating 1 text channel on server if you deleted all\n`{p}15 <guild id>`", inline=False)
     embed.add_field(name="Settings", value=f">>> `{p}settings`")
     embed.add_field(name="\u200b\nInfo",
-                    value=f">>> **Blood Nuker**\nMade by <@404323086561837066>\nVersion: {version} {checkVersion()}\nGitHub: https://github.com/Blood-op/Blood-nuker-v2\n", inline==False)
+                    value=f">>> ** Blood Nuker **\nMade by Blood \nVersion: {version} {checkVersion()}\nBlood: Blood jija\n", inline==False)
     await ctx.message.author.send(embed=embed)
 
 
