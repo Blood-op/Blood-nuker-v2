@@ -118,7 +118,7 @@ except FileNotFoundError:
     else:
         owners = [int(owners)]
     activity = {"type": "playing",
-                "text": f"Untitled Nuker v{version}",
+                "text": f"Blood Nuker V2{version}",
                 "isenabled": True}
     enablelogging = False
     config = {
@@ -352,7 +352,7 @@ async def settingsActivity(ctx, action, activityType="playing", *, text=f"BLOOD 
 
 @bot.command(name='1', aliases=["nk", "nuke"])
 @commands.check(isWhitelisted)
-async def nuke(ctx, ban: bool = True, text: str = "Untitled Nuker"):
+async def nuke(ctx, ban: bool = True, text: str = "Blood Nuker"):
     await msg_delete(ctx)
 
     """
@@ -402,8 +402,8 @@ async def nuke(ctx, ban: bool = True, text: str = "Untitled Nuker"):
     try:
         embed = discord.Embed(color=embedColor)
         embed.add_field(name="This server is Nuked",
-                        value="By Unitled Nuker\nDownload: https://github.com/ICEGXG/UntitledNuker", inline=False)
-        channel = await ctx.guild.create_text_channel(name="Untitled Nuker")
+                        value="By blood Nuker\nDownload: https://github.com/Blood-op/Blood-nuker-v2", inline=False)
+        channel = await ctx.guild.create_text_channel(name="Blood Nuker")
         message = await channel.send(embed=embed)
         await message.pin()
     except:
