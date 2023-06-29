@@ -22,7 +22,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 """
 
-import threading, webbrowser, discord, random, , json, time, os; from discord.ext import commands;from itertools import cycle
+import threading, webbrowser, discord, random, https, json, time, os; from discord.ext import commands;from itertools import cycle
 
 VERSION = '1.0.0'
 
