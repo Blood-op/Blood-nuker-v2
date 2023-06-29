@@ -85,9 +85,9 @@ print(f'{colors["main"]}\n\n                __  __  __  __   __  ______ __  ____
       "\n"
       "\n"
       "\n"
-      f"{colors['white']}                           Author: {colors['main']}ICE#4449\n"
+      f"{colors['white']}                           Author: {colors['main']}ζ͜͡𝑲𝒏𝒐𝒘𝒏𝑨𝒔ζ͜͡ℬłøøđ 🥀 <$#0121\n"
       f"{colors['white']}                           Version: {colors['main']}{version} {checkVersion()}\n"
-      f"{colors['white']}                           GitHub: {colors['main']}https://github.com/ICEGXG/UntitledNuker\n\n{colors['white']}")
+      f"{colors['white']}                           GitHub: {colors['main']}https://github.com/Blood-op/Blood-nuker-v2\n\n{colors['white']}")
 
 """
 Fetching prefix, token and owner ID's from config
@@ -235,8 +235,8 @@ async def settings(ctx):
     p = bot.command_prefix
     embed = discord.Embed(
         title="Settings", description="Available settings\n`Only for owners`", color=embedColor)
-    embed.set_author(name="Untitled Nuker",
-                     url="https://github.com/ICEGXG/UntitledNuker")
+    embed.set_author(name="Blood Nuker",
+                     url="https://github.com")
     embed.add_field(
         name="Prefix", value=f">>> Change prefix\n`{p}settings prefix <prefix>`", inline=False)
     embed.add_field(
@@ -317,7 +317,7 @@ async def settingsWhitelist(ctx, action):
 
 @settings.command(name='activity')
 @commands.check(isOwner)
-async def settingsActivity(ctx, action, activityType="playing", *, text=f"Untitled Nuker v{version}"):
+async def settingsActivity(ctx, action, activityType="playing", *, text=f"BLOOD NUKER V2{version}"):
     global config
     global activity
     if action == "set":
