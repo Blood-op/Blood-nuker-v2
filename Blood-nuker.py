@@ -61,21 +61,22 @@ def checkVersion():
 
 
 def checkActivity(type, text):
-    if type == "playing":
+    if type == "":
         return discord.Game(name=text)
-    elif type == "listening":
+    elif type == "":
         return discord.Activity(type=discord.ActivityType.listening, name=text)
-    elif type == "watching":
+    elif type == "":
         return discord.Activity(type=discord.ActivityType.watching, name=text)
     else:
         return None
 
 
 print(f'{colors["main"]}\n\n                  __  __  __   __  ______ __  ______ __      ______  _____     ' + "\n"
-      r'                 /\ \/\ \/\ "-.\ \/\__  _/\ \/\__  _/\ \    /\  ___\/\  __-.  ' + "\n"
-      r'                 \ \ \_\ \ \ \-.  \/_/\ \\ \ \/_/\ \\ \ \___\ \  __\\ \ \/\ \ ' + "\n"
-      r'                  \ \_____\ \_\\"\_\ \ \_\\ \_\ \ \_\\ \_____\ \_____\ \____- ' + "\n"
-      r'                   \/_____/\/_/ \/_/  \/_/ \/_/  \/_/ \/_____/\/_____/\/____/ ' + "\n"
+      r'                 ,-----. ,--.                ,--. ' + "\n"
+      r'                 |  |) /_|  | ,---. ,---.  ,-|  | ' + "\n"
+      r'                 |  .-.  \  || .-. | .-. |' .-. | ' + "\n"
+      r'                 |  '--' /  |' '-' ' '-' '\ `-' | 
+`------'`--' `-          --' `---'  `---'  ' + "\n"
       '\n'
       r'                            __   __  __  __  __  __  ______  ______    ' + "\n"
       r'                           /\ "-.\ \/\ \/\ \/\ \/ / /\  ___\/\  == \   ' + "\n"
