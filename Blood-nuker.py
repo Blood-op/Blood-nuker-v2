@@ -72,10 +72,10 @@ def checkActivity(type, text):
 
 
 print(f'{colors["main"]}\n\n                  __  __  __   __  ______ __  ______ __      ______  _____     ' + "\n"
-      r'                                       BLOOD NUKER V2 FUCK THE DC  ' + "\n"
-      r'                                       __  __  __   __  ______ __  ______ __ ' + "\n"
-      r'                                        https://discord.gg/7jpSw884eV  ' + "\n"                    ' + "\n"
-      r'                                       __  __  __   __  ______ __  ______ __ ' + "\n"
+      r'                                       BLOOD NUKER V2 FUCK THE DC             ' + "\n"
+      r'                                       __  __  __   __  ______ __  ______ __  ' + "\n"
+      r'                                        https://discord.gg/7jpSw884eV         ' + "\n"                
+      r'                                       __  __  __  __  ______ __  ______ __   ' + "\n"
       '\n'
       r'                            __   __  __  __  __  __  ______  ______    ' + "\n"
       r'                           /\ "-.\ \/\ \/\ \/\ \/ / /\  ___\/\  == \   ' + "\n"
