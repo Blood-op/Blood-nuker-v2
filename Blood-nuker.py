@@ -71,24 +71,23 @@ def checkActivity(type, text):
         return None
 
 
-print(f'{colors["main"]}\n\n                 | __  __  __   __  ______ __  ______ __ |    ______  _____     ' + "\n"
-      r'                                     | BLOOD NUKER V2 FUCK THE DC            |  ' + "\n"
-      r'                                     |  __  __  __   __  ______ __  ______ __| ' + "\n"
-      r'                                     |  https://discord.gg/7jpSw884eV        |   ' + "\n"                
-      r'                                     | __  __  __  __  ______ __  ______ __  | ' + "\n"
+print(f'{colors["main"]}\n\n                __  __  __  __   __  ______ __  ______ __ __ ___     ' + "\n"
+      r'                                   |     BLOOD NUKER V2 FUCK THE DC                 |' + "\n"
+      r'                                    |  -------------------------------------       |' + "\n"
+      r'                                     |            NUKE BOT V2                     |' + "\n"
+      r'                                 ----------------------------------------------- ' + "\n"
       '\n'
-      '\n'                                                                                                      
-      r'                                                 =======================================    ' + "\n"
-      r'                                                                Features                    ' + "\n"
-      r'                                                          =====================             ' + "\n"
-      r'                                                [spam with channels, spam roles, spam msgs] ' + "\n"
-      r'                                                   [adminall, massban, rename everyone ]    ' + "\n"
-      '\n'
-      '\n'
-      '\n'
-      f"{colors['white']}                           Author: {colors['main']}ζ͜͡𝑲𝒏𝒐𝒘𝒏𝑨𝒔ζ͜͡ℬłøøđ 🥀 <$#0121\n"
+      r'                                      |=================================|   ' + "\n"
+      r'                                      |            TEAM                 |   ' + "\n"
+      r'                                      |       Zombie residency          |   ' + "\n"
+      r'                                      |---------------------------------|   ' + "\n"
+      r'                                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  ' + "\n"
+      "\n"
+      "\n"
+      "\n"
+      f"{colors['white']}                           Author: {colors['main']}ICE#4449\n"
       f"{colors['white']}                           Version: {colors['main']}{version} {checkVersion()}\n"
-      f"{colors['white']}                           GitHub: {colors['main']}https://github.com/Blood-op/Blood-nuker-v2\n\n{colors['white']}")
+      f"{colors['white']}                           GitHub: {colors['main']}https://github.com/ICEGXG/UntitledNuker\n\n{colors['white']}")
 
 """
 Fetching prefix, token and owner ID's from config
@@ -119,7 +118,7 @@ except FileNotFoundError:
     else:
         owners = [int(owners)]
     activity = {"type": "playing",
-                "text": f"Blood Nuker v2{version}",
+                "text": f"Untitled Nuker v{version}",
                 "isenabled": True}
     enablelogging = False
     config = {
@@ -193,7 +192,7 @@ async def help(ctx):
     p = bot.command_prefix
     embed = discord.Embed(title="Help", color=embedColor)
     embed.set_author(name="Blood Nuker",
-                     url="https://github.com/Blood-op/Blood-nuker-v2")
+                     url="https://github.com")
     embed.add_field(
         name="Nuke", value=f">>> `{p}1 <ban 1/0> <your text>`", inline=False)
     embed.add_field(name="Ban everyone", value=f">>> `{p}2`", inline=False)
@@ -226,7 +225,7 @@ async def help(ctx):
         name="Revive (DM Only)", value=f">>> Creating 1 text channel on server if you deleted all\n`{p}15 <guild id>`", inline=False)
     embed.add_field(name="Settings", value=f">>> `{p}settings`")
     embed.add_field(name="\u200b\nInfo",
-                    value=f">>> ** Blood Nuker **\nMade by Blood \nVersion: {version} {checkVersion()}\nBlood: Blood jija\n", inline==False)
+                    value=f">>> **BLOOD Nuker**\nMade by <@404323086561837066>\nVersion: {version} {checkVersion()}\nGitHub: https://github.com\n", inline=False)
     await ctx.message.author.send(embed=embed)
 
 
@@ -236,8 +235,8 @@ async def settings(ctx):
     p = bot.command_prefix
     embed = discord.Embed(
         title="Settings", description="Available settings\n`Only for owners`", color=embedColor)
-    embed.set_author(name="Blood Nuker",
-                     url="https://discord.gg/s7fATdey")
+    embed.set_author(name="Untitled Nuker",
+                     url="https://github.com/ICEGXG/UntitledNuker")
     embed.add_field(
         name="Prefix", value=f">>> Change prefix\n`{p}settings prefix <prefix>`", inline=False)
     embed.add_field(
