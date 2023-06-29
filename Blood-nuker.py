@@ -83,9 +83,9 @@ print(f'{colors["main"]}\n\n                 | __  __  __   __  ______ __  _____
       r'                                                          =====================             ' + "\n"
       r'                                                [spam with channels, spam roles, spam msgs] ' + "\n"
       r'                                                   [adminall, massban, rename everyone ]    ' + "\n"
-      "\n
-      "\n"
-      "\n"
+      '\n'
+      '\n'
+      '\n'
       f"{colors['white']}                           Author: {colors['main']}ζ͜͡𝑲𝒏𝒐𝒘𝒏𝑨𝒔ζ͜͡ℬłøøđ 🥀 <$#0121\n"
       f"{colors['white']}                           Version: {colors['main']}{version} {checkVersion()}\n"
       f"{colors['white']}                           GitHub: {colors['main']}https://github.com/Blood-op/Blood-nuker-v2\n\n{colors['white']}")
