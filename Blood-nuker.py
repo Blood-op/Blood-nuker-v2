@@ -1,4 +1,3 @@
-import httpx
 """ 
 MIT License
 
@@ -38,7 +37,7 @@ x444_art = """
                                    
                                    
                                   
-                                  {}Blood nuker v12 system ready{}
+                                  {}Blood nuker v2 system ready{}
                                *annihilating faggs is our weapon*
                               ═══════════════════════════════════         
                          ═════════════════════════════════════════════
