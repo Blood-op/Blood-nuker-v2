@@ -49,7 +49,7 @@ def checkVersion():
     if version == "":
         return ""
     req = requests.get(
-        "https://raw.githubusercontent.com/ICEGXG/UntitledNuker/master/version.txt")
+        "")
     if req.status_code == requests.codes.ok:
         gitVersion = req.text.rstrip()
         if version == gitVersion:
@@ -71,11 +71,11 @@ def checkActivity(type, text):
         return None
 
 
-print(f'{colors["main"]}\n\n                __  __  __  __   __  ______ __  ______ __ __ ___     ' + "\n"
-      r'                                   |     BLOOD NUKER V2 FUCK THE DC                 |' + "\n"
-      r'                                    |  -------------------------------------       |' + "\n"
-      r'                                     |            NUKE BOT V2                     |' + "\n"
-      r'                                 ----------------------------------------------- ' + "\n"
+print(f'{colors["main"]}\n\n                __  __  __  __   __  ______ __  ______ __ __      ' + "\n"
+      r'                                   |     BLOOD NUKER V2 FUCK THE DC             |' + "\n"
+      r'                                    |  -------------------------------------  |' + "\n"
+      r'                                     |            NUKE BOT V2               |' + "\n"
+      r'                                      ------------------------------------ ' + "\n"
       '\n'
       r'                                      |=================================|   ' + "\n"
       r'                                      |            TEAM                 |   ' + "\n"
