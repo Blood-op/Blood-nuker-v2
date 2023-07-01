@@ -67,21 +67,21 @@ def checkActivity(type, text):
         return discord.Activity(type=discord.ActivityType.listening, name=text)
     elif type == "watching":
         return discord.Activity(type=discord.ActivityType.watching, name=text)
-    el
+    else:
         return None
 
 
-print(f'{colors["main"]}\n\n           ▄▄▄▄    ██▓     ▒█████   ▒█████                 ' + "\n"
-      r'                                                ▓█████▄                                                                ' + "\n"
-      r'                                                ▓█████▄ ▓██▒    ▒██▒  ██▒▒██▒               ' + "\n"
-      r'                                                ██▒▒██▀ ██▌                                                       ' + "\n"
-      r'                                                ▒██▒ ▄██▒██░    ▒██░  ██▒▒██░               ' + "\n"
-      r'                                                ██▒░██   █▌                                                          ' + "\n"
-      r'                                                ▒██░█▀  ▒██░    ▒██   ██░▒██                    ' + "\n"
-      r'                                                ██░░▓█▄   ▌                                                         ' + "\n"
-      r'                                                ░▓█  ▀█▓░██████▒░ ████▓▒░░               ' + "\n"
-      r'                                                ████▓▒░░▒████▓                                             ' + "\n"
-      r'                                                 ░▒▓███▀▒░ ▒░▓  ░░ ▒░▒░▒░ ░                   ' + "\n"
+print(f'{colors["main"]}\n\n                     ▄▄▄▄    ██▓     ▒█████   ▒█████            ' + "\n"
+      r'                                        ▓█████▄  BLOOD NUKER V2 FUCK THE DC           ' + "\n"
+      r'                                        ▓█████▄ ▓██▒    ▒██▒  ██▒▒██▒              ' + "\n"
+      r'                                        ██▒▒██▀ ██▌                                  ' + "\n"
+      r'                                         ▒██▒ ▄██▒██░    ▒██░  ██▒▒██░     ' + "\n"
+      '\n'
+      r'                                       __   __  __  __  __  __  ______  ______     ' + "\n"
+      r'                                       /\ "-.\ \/\ \/\ \/\ \/ / /\  ___\/\  == \   ' + "\n"
+      r'                                       \ \ \-.  \ \ \_\ \ \  _"-\ \  __\\ \  __<   ' + "\n"
+      r'                                        \ \_\\"\_\ \_____\ \_\ \_\ \_____\ \_\ \_\    ' + "\n"
+      r'                                         \/_/ \/_/\/_____/\/_/\/_/\/_____/\/_/ /_/  ' + "\n"
       "\n"
       "\n"
       "\n"
