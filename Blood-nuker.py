@@ -71,7 +71,7 @@ def checkActivity(type, text):
         return None
 
 
-print(f'{colors["main"]}\n\n                                       =================================================    ' + "\n"
+print(f'{colors["main"]}\n\n                                  ===============================================    ' + "\n"
       r'                                   |     BLOOD NUKER V2 FUCK THE DC              |     ' + "\n"
       r'                                   | ---------------------------------------- -- |     ' + "\n"
       r'                                   |              NUKE BOT V2                    |     ' + "\n"
