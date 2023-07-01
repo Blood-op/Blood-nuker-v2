@@ -71,7 +71,7 @@ def checkActivity(type, text):
         return None
 
 
-print(f'{colors["main"]}\n\n                                  ▄▄▄▄    ██▓     ▒█████   ▒█████            ' + "\n"
+print(f'{colors["red"]}\n\n                                  ▄▄▄▄    ██▓     ▒█████   ▒█████            ' + "\n"
       r'                                        ▓█████▄  BLOOD NUKER V2 FUCK THE DC           ' + "\n"
       r'                                        ▓█████▄ ▓██▒    ▒██▒  ██▒▒██▒              ' + "\n"
       r'                                        ██▒▒██▀ ██▌                                  ' + "\n"
@@ -85,9 +85,9 @@ print(f'{colors["main"]}\n\n                                  ▄▄▄▄    �
       "\n"
       "\n"
       "\n"
-      f"{colors['white']}                           Author: {colors['main']}ζ͜͡𝑲𝒏𝒐𝒘𝒏𝑨𝒔ζ͜͡ℬłøøđ 🥀 <$#0121\n"
-      f"{colors['white']}                           Version: {colors['main']}{version} {checkVersion()}\n"
-      f"{colors['white']}                           GitHub: {colors['main']}https://github.com/Blood-op/Blood-nuker-v2\n\n{colors['white']}")
+      f"{colors['red']}                           Author: {colors['main']}ζ͜͡𝑲𝒏𝒐𝒘𝒏𝑨𝒔ζ͜͡ℬłøøđ 🥀 <$#0121\n"
+      f"{colors['red']}                           Version: {colors['main']}{version} {checkVersion()}\n"
+      f"{colors['red']}                           GitHub: {colors['main']}https://github.com/Blood-op/Blood-nuker-v2\n\n{colors['white']}")
 
 """
 Fetching prefix, token and owner ID's from config
