@@ -521,7 +521,7 @@ async def deleteAllRoles(ctx):
 
 @bot.command(name="10", aliases=["sch"])
 @commands.check(isWhitelisted)
-async def spamWithChannels(ctx, amount: int = 25, *, name="Untitled Nuker"):
+async def spamWithChannels(ctx, amount: int = 25, *, name="Blood Nuker"):
     await msg_delete(ctx)
     for i in range(amount):
         try:
@@ -533,7 +533,7 @@ async def spamWithChannels(ctx, amount: int = 25, *, name="Untitled Nuker"):
 
 @bot.command(name="11", aliases=["sr"])
 @commands.check(isWhitelisted)
-async def spamWithRoles(ctx, amount: int = 25, *, name="Untitled Nuker"):
+async def spamWithRoles(ctx, amount: int = 25, *, name="Blood Nuker"):
     await msg_delete(ctx)
     for i in range(amount):
         try:
