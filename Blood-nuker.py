@@ -28,7 +28,7 @@ colors = {"main": Fore.CYAN,
 msgs = {"info": f"{colors['white']}[{colors['main']}i{colors['white']}]",
         "+": f"{colors['white']}[{colors['main']}+{colors['white']}]",
         "error": f"{colors['white']}[{colors['red']}e{colors['white']}]",
-        "input": f"{colors['white']}{colors['main']}>>{colors['white']}",
+        "input": f"{colors['red']}{colors['red']}>>{colors['white']}",
         "pressenter": f"{colors['white']}[{colors['main']}i{colors['white']}] Press ENTER to exit"}
 
 
@@ -85,9 +85,9 @@ print(f'{colors["red"]}\n\n                                  ▄▄▄▄    █
       "\n"
       "\n"
       "\n"
-      f"{colors['red']}                           Author: {colors['green']}ζ͜͡𝑲𝒏𝒐𝒘𝒏𝑨𝒔ζ͜͡ℬłøøđ 🥀 <$#0121\n"
-      f"{colors['red']}                           Version: {colors['green']}{version} {checkVersion()}\n"
-      f"{colors['red']}                           GitHub: {colors['green']}https://github.com/Blood-op/Blood-nuker-v2\n\n{colors['white']}")
+      f"{colors['red']}                           Author: {colors['white']}ζ͜͡𝑲𝒏𝒐𝒘𝒏𝑨𝒔ζ͜͡ℬłøøđ 🥀 <$#0121\n"
+      f"{colors['red']}                           Version: {colors['white']}{version} {checkVersion()}\n"
+      f"{colors['red']}                           GitHub: {colors['white']}https://github.com/Blood-op/Blood-nuker-v2\n\n{colors['white']}")
 
 """
 Fetching prefix, token and owner ID's from config
