@@ -67,21 +67,21 @@ def checkActivity(type, text):
         return discord.Activity(type=discord.ActivityType.listening, name=text)
     elif type == "watching":
         return discord.Activity(type=discord.ActivityType.watching, name=text)
-    else:
+    el
         return None
 
 
-print(f'{colors["main"]}\n\n                                  ===============================================    ' + "\n"
-      r'                                   |     BLOOD NUKER V2 FUCK THE DC              |     ' + "\n"
-      r'                                   | ---------------------------------------- -- |     ' + "\n"
-      r'                                   |              NUKE BOT V2                    |     ' + "\n"
-      r'                                   | ____  ___  ____ ______ _____ _____ ________ |     ' + "\n"
-      '\n'
-      r'                                      |=================================|   ' + "\n"
-      r'                                      |            TEAM                 |   ' + "\n"
-      r'                                      |       Zombie residency          |   ' + "\n"
-      r'                                      |---------------------------------|   ' + "\n"
-      r'                                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  ' + "\n"
+print(f'{colors["main"]}\n\n           ▄▄▄▄    ██▓     ▒█████   ▒█████                 ' + "\n"
+      r'                                                ▓█████▄                                                                ' + "\n"
+      r'                                                ▓█████▄ ▓██▒    ▒██▒  ██▒▒██▒               ' + "\n"
+      r'                                                ██▒▒██▀ ██▌                                                       ' + "\n"
+      r'                                                ▒██▒ ▄██▒██░    ▒██░  ██▒▒██░               ' + "\n"
+      r'                                                ██▒░██   █▌                                                          ' + "\n"
+      r'                                                ▒██░█▀  ▒██░    ▒██   ██░▒██                    ' + "\n"
+      r'                                                ██░░▓█▄   ▌                                                         ' + "\n"
+      r'                                                ░▓█  ▀█▓░██████▒░ ████▓▒░░               ' + "\n"
+      r'                                                ████▓▒░░▒████▓                                             ' + "\n"
+      r'                                                 ░▒▓███▀▒░ ▒░▓  ░░ ▒░▒░▒░ ░                   ' + "\n"
       "\n"
       "\n"
       "\n"
